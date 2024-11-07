@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JavaScript </title>
+
+</head>
+
+<body>
+<p id="demo1"> </p>
+<script> 
+    var str="hElLo"; //string datatype 
+    document.write(str.toUpperCase());
+    document.write("</br>") 
+    document.write(str.toLowerCase());  
+    document.write("</br>"); 
+    document.write(str.startsWith("i"));  
+    document.write("</br>")  
+
+
+    for(var u=1;u<=10;u++) { 
+        document.write("javasript"); 
+    }
+
+for(let i=0;i<=10;i++) { 
+    document.write("number: ",i)
+} 
+let sum=0; 
+for(let i=10;i<=20;i++) { 
+    sum=sum+i;
+} 
+document.write("summation of numbers:\n ",sum) 
+
+var fruits=['mango','apple','strawberry']; 
+var text=""; 
+var j; 
+for(j=0;j<fruits.length;j++) { 
+
+    text= text+ fruits[j] + "</br>";
+} 
+
+document.getElementById('demo1').innerHTML=text;
+</script>
+</body>
+
+</html>
+
